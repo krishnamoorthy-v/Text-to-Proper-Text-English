@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from llama_cpp import Llama
 import os
 import json
-
+# https://huggingface.co/bartowski/Meta-Llama-3-8B-Instruct-GGUF/blob/main/Meta-Llama-3-8B-Instruct-Q5_K_S.gguf
 model_path = "../UsingLLamma\\Trail 1\\Meta-Llama-3-8B-Instruct.Q5_K_S.gguf"
 
 app = FastAPI()
